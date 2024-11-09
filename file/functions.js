@@ -86,13 +86,13 @@ function timeElapse(date){
     hours = (hours < 10) ? "0" + hours : hours;
     minutes = (minutes < 10) ? "0" + minutes : minutes;
     seconds = (seconds < 10) ? "0" + seconds : seconds;
-	var result = years + " Years <span class=\"digit\">" + 
+    var result = '' + years + " Years <span class=\"digit\">" + 
              months + " Months </span><span class=\"digit\">" + 
              days + " Days </span><span class=\"digit\">" + 
              hours + " Hours </span><span class=\"digit\">" + 
              minutes + " Minutes </span><span class=\"digit\">" + 
              seconds + " Seconds</span>";
-	$("#clock").html(result);
+    $("#clock").html(result);
 
 	var text = "I JUST GOT LUCKIER SINCE ";
 	$("#message-box").html(text);

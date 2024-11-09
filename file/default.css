@@ -24,9 +24,9 @@ a {
   margin-top: 10px;
 }
 #text {
-  width: 420px;
+  width: 440px;
   height: 560px;
-  left: 90px;
+  left: 35px;
   top: 50px;
   position: absolute;
 }
@@ -34,27 +34,31 @@ a {
   display: none;
   color: rgb(255, 225, 112);
   font-size: 16px;
-  margin-top: 65px;
-  line-height: 25px;
+  margin-top: 85px;
+  padding-top: 20px;
+  line-height: 28px;
+  
   font-size: larger;
   font-weight: bolder;
 }
+/* Clock Box */
 #clock-box {
   position: absolute;
   left: 60px;
   top: 550px;
   font-size: 28px;
-  display: none;
 }
-#clock-box a {
-  font-size: 12px;
-  text-decoration: none;
-}
+
 #clock {
   margin-left: 28px;
-}
-#clock .digit {
+  color: #33CC00;
   font-size: 18px;
+}
+
+#clock .digit {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FF6B6B;
 }
 #canvas {
   margin: 0 auto;
@@ -71,7 +75,7 @@ a {
   cursor: pointer;
 }
 .say {
-  margin-left: 5px;
+  margin-left: 0px;
 }
 .space {
   margin-right: 150px;
